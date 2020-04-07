@@ -1,0 +1,39 @@
+PODS:
+  - device_info (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - tealium (0.0.2):
+    - Flutter
+    - TealiumIOS (<= 5.6.6)
+    - TealiumIOSLifecycle (<= 5.6.6)
+  - TealiumIOS (5.5.2)
+  - TealiumIOSLifecycle (5.5.2)
+
+DEPENDENCIES:
+  - device_info (from `.symlinks/plugins/device_info/ios`)
+  - Flutter (from `Flutter`)
+  - tealium (from `.symlinks/plugins/tealium/ios`)
+
+SPEC REPOS:
+  trunk:
+    - TealiumIOS
+    - TealiumIOSLifecycle
+
+EXTERNAL SOURCES:
+  device_info:
+    :path: ".symlinks/plugins/device_info/ios"
+  Flutter:
+    :path: Flutter
+  tealium:
+    :path: ".symlinks/plugins/tealium/ios"
+
+SPEC CHECKSUMS:
+  device_info: cbf09d2ec12aa7110e0b09fabe54b5bd6c8efe74
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  tealium: 8d11e899407bb86cc0f880dc35be9149a3cee31b
+  TealiumIOS: 556dc670b3c61b56a38157fab1c4dae6001df329
+  TealiumIOSLifecycle: d4ffa989719d6eeaca02db5addf160815161dcba
+
+PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
+
+COCOAPODS: 1.9.1
